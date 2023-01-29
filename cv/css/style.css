@@ -1,0 +1,183 @@
+body{
+    margin:0;
+    text-align: center;
+}
+
+.top{
+    background-image: linear-gradient(to bottom, #F5EDDC 30%, #FA9494 65%);
+    background-color: #F5EDDC;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.top h1{
+    font-size: 30px;
+    color:#FA9494;
+
+}
+.top h2{
+    font-size: 20px;
+    color:#FA9494;
+
+}
+.top h3{
+    color:#F5EDDC;
+}
+
+.top p, h3{
+    color:#F5EDDC;
+}
+
+.middle{
+    background-image: linear-gradient(to top, #d2e9d2 94%, #8dc88d);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #162d16;
+}
+
+.middle-contact{
+    background-image: linear-gradient(to top, #d2e9d2 94%, #8dc88d);
+    padding-top: 20px;
+    padding-bottom: 100%;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #162d16;
+}
+.middle h2, h3{
+    color: black;
+}
+.bottom{
+    background-image: linear-gradient(to top, #7a7adc 94.5%, #d2e9d2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+.middle a{
+    color: #FA9494;
+    text-decoration: none;
+    font-style: bold;
+}
+.middle a:hover{
+    color: #E97777;
+    text-decoration: underline;
+    font-style: bold;
+}
+
+#headshot {
+    display: block;
+    border-radius: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #CFD2CF;
+    width: 3.5cm;
+}
+
+#toriiGateImg{
+    position: absolute;
+    top: 306px;
+    left: 7%;
+}
+
+#sakuraImg{
+    position: absolute;
+    top: 306px;
+    right: 7%;
+}
+
+#craneImg{
+    position: absolute;
+    top: 1290px;
+    right: 10%;
+}
+#branchImg{
+    position: absolute;
+    top: 1250px;
+    left: 0;
+}
+
+.button {
+    box-shadow: 0 4px 8px 0 rgba(0,5,0,0.2);
+    transition: 0.3833s;
+    display: block;
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px;
+    border-style:double;
+    border-color: #d2e9d2;
+    background-color: #d2e9d2;
+    font-size: 20px;
+}
+
+.button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,12,0,0.35);
+    text-decoration: underline;
+    background-color: #cdeecd;
+}
+
+.right-column{
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.left-column{
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+.left-column > img{
+    height: 100px;
+    padding-top: 10px;
+}
+
+.skill-box{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left-column-skillz{
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.right-column-skillz{
+    float: left;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.left-column-skillz > img{
+    height: 100px;
+    padding-top: 10px;
+}
+
+.card{
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,5,0,0.2);
+    transition: 0.3833s;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border: 1px;
+    border-style:double;
+    border-color: #d2e9d2;
+    background-color: #d2e9d2;
+    font-size: 20px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,12,0,0.35);
+    background-color: #cdeecd;
+}
+.container {
+    padding: 10px 16px;
+}
